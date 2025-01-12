@@ -3,14 +3,26 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsup src/index.ts --dts",
     "prepublishOnly": "pnpm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "homepage": "https://github.com/spithacode/game-loop#readme",
+  "bugs": {
+    "url": "https://github.com/spithacode/game-loop/issues"
+  },
+  "keywords": [
+    "Game",
+    "Game Loop"
+  ],
+  "license": "MIT",
+  "author": "Sid Ali Assoul",
+  "description": "Simple fixed timestamp based game loop.",
   "devDependencies": {
     "@types/node": "^22.10.5",
     "typescript": "^5.7.3"
