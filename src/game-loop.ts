@@ -1,6 +1,6 @@
 export class GameLoop {
   private lastRequestId?: number;
-  private isRunning: boolean = false;
+  public isRunning: boolean = false;
   public lastTimestamp: number = 0;
   private deltaTime: number = 0;
   private accumulator: number = 0;

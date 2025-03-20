@@ -1,6 +1,6 @@
 {
   "name": "@spithacode/game-loop",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -25,11 +25,13 @@
   "description": "Simple fixed timestamp based game loop.",
   "devDependencies": {
     "@types/node": "^22.10.5",
-    "typescript": "^5.7.3",
-    "tsup": "^8.3.5"
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.3"
   },
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@spithacode/game-loop": "link:"
+  }
 }
